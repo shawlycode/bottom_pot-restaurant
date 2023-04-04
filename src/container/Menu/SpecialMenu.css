@@ -82,4 +82,18 @@
     font-size: 35px;
     line-height: 48.5px;
   }
+  .app__specialMenu-menu_wine {
+    width: 100%;
+  }
+  .app__specialMenu-menu {
+    width: 80%;
+  }
+  .app__specialMenu_menu_items {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .app__sepcialMenu-title h1 {
+    font-size: 30px;
+  }
 }
