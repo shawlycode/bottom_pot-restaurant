@@ -1,6 +1,12 @@
 .app__video {
   position: relative;
   height: 100vh;
+  background: var(--color-black);
+}
+
+.app__video video {
+  object-fit: contain;
+  width: 100%;
 }
 
 .video__overlay {
@@ -24,4 +30,40 @@
   height: 80px;
   width: 80px;
   border-radius: 100%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+  .video__overlay button {
+    position: inherit;
+    background: transparent;
+    color: var(--color-grey);
+    left: 45%;
+    bottom: 45%;
+    border: 1px solid var(--color-grey);
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__video {
+    height: fit-content;
+    padding: 1rem 0;
+    object-fit: contain;
+  }
+  .video__overlay button {
+    position: inherit;
+    background: transparent;
+    color: var(--color-grey);
+    left: 40%;
+    bottom: 10%;
+    border: 1px solid var(--color-grey);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
 }
