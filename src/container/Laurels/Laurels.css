@@ -1,0 +1,30 @@
+.app__wrapper_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__awardCard-info p:first-child {
+  color: var(--color-golden);
+}
+
+.app__bg {
+  width: 100%;
+}
+
+.app__awardCard-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app__awardCard-wrapper {
+  flex: 1;
+}
+
+.app__awardCard-wrapper img {
+  width: 100px;
+  margin: 1rem;
+}
+
+.app__wrapper_img {
+}
