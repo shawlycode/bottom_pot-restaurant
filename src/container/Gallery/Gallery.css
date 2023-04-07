@@ -107,9 +107,6 @@
 }
 
 @media screen and (min-width: 1150px) {
-  .app__gallery {
-    /* flex-direction: column; */
-  }
   .app__gallery-images {
     width: 100%;
     margin: 5rem 0;
@@ -123,9 +120,6 @@
 }
 
 @media screen and (max-width: 650px) {
-  .app__gallery {
-    /* padding: 4rem o 4rem 2rem; */
-  }
   .app__gallery_images_card {
     width: 300px;
     height: 350px;
