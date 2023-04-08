@@ -14,7 +14,8 @@ import {
 import { Navbar } from "./components";
 import "./App.css";
 
-const App = () => (<
+const App = () => {
+  <
     div >
   <
     Navbar />
@@ -37,7 +38,6 @@ const App = () => (<
   <
     Footer />
   <
-    /div>
-  );
-
+        /div>;
+};
   export default App;
