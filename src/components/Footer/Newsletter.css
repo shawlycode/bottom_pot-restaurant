@@ -1,0 +1,15 @@
+.app__newsLetter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__neswletter_input input {
+  border: none;
+  padding: 0.9rem;
+  flex: 1;
+  width: 500px;
+  outline: none;
+  background: var(--color-black);
+}
