@@ -9,7 +9,7 @@
 
 .app__aboutus-overlay img {
   width: 391px;
-  height: 415px;
+  height: 400px;
   z-index: 0;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .app__aboutus-content_knife img {
-  height: 800px;
+  height: 600px;
 }
 
 .app__aboutus-content_history {
@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 2000px) {
   .app__aboutus-content_knife img {
-    height: 1110px;
+    height: 650px;
   }
   .app__aboutus-content_history p,
   .app__aboutus-content_about p {
