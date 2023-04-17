@@ -18,6 +18,7 @@ const Chef = () => (
           <p className="p__opensans"> Lorem ipsum dolor sit am adipisicing elit. Et, exercitationem. </p>
         </div>
         <p className='p__opensans'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, alias? Ducimus dolorem dicta, sunt itaque assumenda, repellendus repellat suscipit eius incidunt earum esse tenetur, dolores illum? Pariatur quod consectetur laudantium!.</p>
+
       </div>
       <div className="app__chef-sign">
         <p>Kelvin Luo</p>
